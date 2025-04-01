@@ -17,6 +17,30 @@ class Appointment{
         this.description = description;
     }
 
+    public Clinic getClinic() {
+        return clinic;
+    }
+
+    public Specialist getSpecialist() {
+        return specialist;
+    }
+
+    public Patient getPatient() {
+        return patient;
+    }
+
+    public Date getDate() {
+        return date;
+    }
+
+    public String getReason() {
+        return reason;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
     public void setClinic(Clinic clinic) {
         this.clinic = clinic;
     }

@@ -14,6 +14,26 @@ class Specialist {
         this.isAvailable = isAvailable;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getSpecialization() {
+        return specialization;
+    }
+
+    public String getExperience() {
+        return experience;
+    }
+
+    public boolean isAvailable() {
+        return isAvailable;
+    }
+
     public void setId(int id) {
         this.id = id;
     }

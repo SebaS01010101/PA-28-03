@@ -9,6 +9,18 @@ class Patient{
         this.numberPhone = numberPhone;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getNumberPhone() {
+        return numberPhone;
+    }
+
     public void setId(int id) {
         this.id = id;
     }

@@ -7,6 +7,14 @@ class Clinic{
         this.adress = adress;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public String getAdress() {
+        return adress;
+    }
+
     public void setAdress(String adress) {
         this.adress = adress;
     }
